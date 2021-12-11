@@ -1,0 +1,42 @@
+.profile {
+    display: flex;
+}
+.profileRight {
+    flex: 9
+}
+.profileCover {
+    position: relative;
+    height: 300px;
+}
+.coverImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.userImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 120px;
+    border: 4px solid #FEAE51FF;
+}
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileInfoDescription {
+    font-weight: 100;;
+}
+.profileInfoName {
+    font-size: 30px;
+}
+.profileRightBottom {
+    display: flex;
+}
